@@ -1,3 +1,6 @@
+ //  Voice to Text & Text to Voice
+ //  Prakash kumar sahoo
+
 import React, { useState } from 'react';
 
 const Chatbot = () => {
@@ -47,6 +50,7 @@ const Chatbot = () => {
   return (
     <div style={{ textAlign: 'center', padding: '50px' }}>
       <h2>Voice to Text & Text to Voice</h2>
+      <h3>Developed by @Prakash</h3>
       <p>Click the button below to start recording your voice.</p>
       <button
         onClick={handleVoiceRecording}
@@ -74,3 +78,5 @@ const Chatbot = () => {
 };
 
 export default Chatbot;
+
+// Prakash kumar sahoo
